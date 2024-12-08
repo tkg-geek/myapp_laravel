@@ -31,6 +31,5 @@ class PostController extends Controller
 
         // 投稿一覧ページにデータを渡す
         return view('posts.index', compact('posts'));
-        return view('dashboard');
     }
 }
